@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import brittany from "../images/brittanyjpg.jpg";
+import Header from "../Components/Header";
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
         <link href="/dist/output.css" rel="stylesheet" />
       </Head>
-      {/* <Header /> */}
+      <Header />
       <main className={styles.main}>
         <h1 className={styles.title}>👋 Hi I&apos;m Brittany!</h1>
         <br />
