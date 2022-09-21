@@ -15,7 +15,6 @@ export default function TechStackList() {
   return (
     <>
       <Header />
-
       <div className="text-2xl bold mx-5">What have I built?</div>
       {/* // Do I wanna break this out by tool? Use case? Something else? Or just use tags? */}
       <div className="grid grid-cols-1 md:grid-cols-4 m-5 p-5 rounded overflow-hidden shadow-lg">

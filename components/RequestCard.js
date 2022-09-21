@@ -1,6 +1,5 @@
 import React from "react";
-import Link from "next/link";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 
 export default function RequestCard(brandRequest) {
   return (
@@ -20,15 +19,15 @@ export default function RequestCard(brandRequest) {
           <p className="text-gray-700 text-base">
             {brandRequest.requestDescription}
           </p>
-          <Link
+          <a
             href={brandRequest.requestLink}
-            target="_blank"
             rel="noopener noreferrer"
+            target="_blank"
           >
             <button className="mt-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               {brandRequest.requestCta}
             </button>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

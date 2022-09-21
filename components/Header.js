@@ -14,7 +14,7 @@ export default function Header() {
     <div className="flex p-3 bg-zinc-100">
       <div className="flex flex-none">
         <Link href="/">
-          <Image src={logo} width={50} height={50} />
+          <Image src={logo} width={50} height={50} alt="tools" />
         </Link>
       </div>
       <div className="flex flex-1 justify-end space-x-3 ">
@@ -23,73 +23,90 @@ export default function Header() {
           contentColor="primary"
           placement="bottom"
         >
-          <Link
+          <a
             href="https://twitter.com/britt_joiner"
+            rel="noopener noreferrer"
             target={"_blank"}
-            className="hover:opacity-60"
           >
-            <Image src={twitter} width={40} height={40} />
-          </Link>
+            <Image
+              alt="twitterLogo"
+              className="hover:opacity-60"
+              height={40}
+              src={twitter}
+              width={40}
+            />
+          </a>
         </Tooltip>
         <Tooltip
           content={"Watch my videos"}
           contentColor="error"
           placement="bottom"
         >
-          <Link
+          <a
             href="https://www.youtube.com/c/brittanyjoiner"
-            target={"_blank"}
             rel="noopener noreferrer"
+            target={"_blank"}
           >
             <Image
+              alt="youtubeLogo"
+              className="hover:opacity-60"
+              height={40}
               src={youtube}
               width={40}
-              height={40}
-              className="hover:opacity-60"
             />
-          </Link>
+          </a>
         </Tooltip>
         <Tooltip
           content={"View my projects"}
           contentColor="success"
           placement="bottom"
         >
-          <Link
+          <a
             href="https://github.com/brittanyjoiner15"
-            target={"_blank"}
-            className="hover:opacity-60"
             rel="noopener noreferrer"
+            target={"_blank"}
           >
-            <Image src={github} width={40} height={40} />
-          </Link>
+            <Image
+              alt="githubLogo"
+              className="hover:opacity-60"
+              height={40}
+              src={github}
+              width={40}
+            />
+          </a>
         </Tooltip>
         <Tooltip
           content={"Buy me a coffee"}
           contentColor="primary"
           placement="bottom"
         >
-          <Link
+          <a
             href="https://www.buymeacoffee.com/brittanyjoiner/"
-            target={"_blank"}
-            className="hover:opacity-60"
             rel="noopener noreferrer"
+            target={"_blank"}
           >
-            <Image src={coffee} width={40} height={40} />
-          </Link>
+            <Image
+              alt="coffeeCup"
+              className="hover:opacity-60"
+              height={40}
+              src={coffee}
+              width={40}
+            />
+          </a>
         </Tooltip>
         {/* Omit this for now */}
         {/* <a href="/talks" target={"_blank"} className="hover:opacity-60">
           <Image src="/./podium.png" width={40} height={40} />
         </Link> */}
-        <Link
+        <a
           href="https://app.snoopforms.com/f/ESOGk7ZU/"
-          target={"_blank"}
           rel="noopener noreferrer"
+          target={"_blank"}
         >
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
             Sub to my Newsletter
           </button>
-        </Link>
+        </a>
       </div>
     </div>
   );
