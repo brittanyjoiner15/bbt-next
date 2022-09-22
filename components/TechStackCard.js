@@ -39,8 +39,8 @@ export function ProjectCard(project) {
         height={300}
       />
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2 h-12">{project.name}</div>
-        <p className="text-gray-700 text-base h-20">{project.description}</p>
+        <div className="font-bold text-xl mb-2 lg:h-16">{project.name}</div>
+        <p className="text-gray-700 text-base lg:h-28">{project.description}</p>
         {tryItOutButton(project.learnLink)}
       </div>
       <div>
