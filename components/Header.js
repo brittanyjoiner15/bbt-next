@@ -11,7 +11,7 @@ import coffee from "../images/coffee.png";
 
 export default function Header() {
   return (
-    <div className="flex p-3 bg-zinc-100">
+    <div className="flex p-3 bg-violet-50">
       <div className="flex flex-none">
         <Link href="/">
           <Image src={logo} width={50} height={50} alt="tools" />

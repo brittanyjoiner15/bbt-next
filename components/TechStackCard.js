@@ -20,7 +20,7 @@ export default function ToolCard(tool) {
       <Image src={tool.logo} alt={`${tool.name} logo`} width={96} height={96} />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{tool.name}</div>
-        <p className="text-gray-700 text-base">{tool.description}</p>
+        <p className="text-gray-700 text-base h-36">{tool.description}</p>
         <button className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded mt-2 w-full">
           Try It Out
         </button>

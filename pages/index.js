@@ -23,18 +23,18 @@ export default function Home() {
           <h1 className={styles.title}>👋 Hi I&apos;m Brittany!</h1>
           <br />
           <div className="flex justify-center">
-            <div className="grid md:grid-cols-2 grid-cols-1 m-5 p-5 align-middle w-1/2">
+            <div className="grid m-5 p-5 align-middle grid-cols-1 md:grid-cols-2  w-full md:w-1/2">
               I really like to build things. I used to work in marketing, where
               I built brands and campaigns for companies to connect with more
               users. Now, I work as a software developer building internal apps
               for my company.
               <br />
               <br />
-              Sometimes i use code to build, but sometimes, i actually prefer to
-              use other tools to build. things you might not consider
-              &quot;tools&quot; but they&apos;ve said me time and made for
+              Sometimes I use code to build, but sometimes, I actually prefer to
+              use other tools to build. Things you might not consider
+              &quot;tools&quot; but they&apos;ve saved me time and made for
               better workflows.
-              <div>
+              <div className="m-4">
                 <Image src={brittany} width={400} height={300} />
               </div>
             </div>

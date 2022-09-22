@@ -1,4 +1,5 @@
 import trello from "../images/trello.png";
+import raycast from "../images/raycast.jpeg";
 import zapier from "../images/zapier.png";
 import pixiebrix from "../images/pixiebrix-logo.png";
 import productReview from "../images/pr.png";
@@ -35,6 +36,14 @@ export const techStack = [
     name: "PixieBrix",
     tags: ["low code", "chrome extension"],
   },
+  {
+    description:
+      "Build all sorts of keyboard shortcuts and quick commands that you can execute from your desktop.",
+    learnLink: "https://www.raycast.com/",
+    logo: raycast,
+    name: "Raycast",
+    tags: ["low code", "automation"],
+  },
 ];
 
 export const myToolsStack = [
@@ -58,11 +67,11 @@ export const myToolsStack = [
 export const brandRequests = [
   {
     image: productReview,
-    requestCta: "Submit a product",
+    requestCta: "Submit your product",
     requestDescription:
       "Got a product that you want me to review? Share your product and I'll give it a try!",
     requestLink: "https://app.bluecatforms.com/TyXkzND0/new-form",
-    requestName: "Product Reviews",
+    requestName: "Product feedback",
   },
   {
     image: sponsoredContent,
@@ -70,7 +79,7 @@ export const brandRequests = [
     requestDescription:
       "If you want to tell my audience about your product, or you want to me to make content for your users,  I'll build custom video and/or written content.",
     requestLink: "https://app.bluecatforms.com/8wPHstBC/new-form",
-    requestName: "Request content",
+    requestName: "Sponsored content",
   },
   {
     image: trelloHelp,
@@ -78,7 +87,7 @@ export const brandRequests = [
     requestDescription:
       "If your team is looking for Trello help, I can build boards and workflows to help you focus on the tasks and not the administration. I can do a workshop on 1:1 consulting.",
     requestLink: "https://www.buymeacoffee.com/brittanyjoiner/extras",
-    requestName: "Trello consulting & training",
+    requestName: "Trello help",
   },
 ];
 
