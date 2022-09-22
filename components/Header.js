@@ -8,6 +8,7 @@ import twitter from "./../images/twitter.png";
 import youtube from "./../images/youtube.png";
 import github from "./../images/github.png";
 import coffee from "../images/coffee.png";
+import slack from "../images/slack.png";
 
 export default function Header() {
   return (
@@ -33,6 +34,25 @@ export default function Header() {
               className="hover:opacity-60"
               height={40}
               src={twitter}
+              width={40}
+            />
+          </a>
+        </Tooltip>
+        <Tooltip
+          content={"Come build with me in slack"}
+          contentColor="error"
+          placement="bottom"
+        >
+          <a
+            href="https://join.slack.com/t/build-with-britt/shared_invite/zt-1ew1pk4w7-sVTSOA4QSA1B6kOpMUBE_A"
+            rel="noopener noreferrer"
+            target={"_blank"}
+          >
+            <Image
+              alt="slackLogo"
+              className="hover:opacity-60"
+              height={40}
+              src={slack}
               width={40}
             />
           </a>

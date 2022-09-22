@@ -60,7 +60,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Built with Next.js, Tailwind, Icon8
+            Built with Next.js, Tailwind, Icons8
           </a>
         </footer>
       </div>
