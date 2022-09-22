@@ -1,11 +1,24 @@
 import React from "react";
-import ToolCard from "../components/TechStackCard";
-import { techStack, myToolsStack } from "../components/Data";
+import TechCard, { ProjectCard, CodeCard } from "../components/TechStackCard";
+import { techStack, myProjects, codeTechStack } from "../components/Data";
 import Header from "../components/Header";
+import Image from "next/image";
 
-export const renderCards = (techStack) => {
+export const renderTools = (techStack) => {
   return techStack.map((tool) => {
-    return <ToolCard {...tool} key={tool.name} />;
+    return <TechCard {...tool} key={tool.name} />;
+  });
+};
+
+export const renderProjects = (myProjects) => {
+  return myProjects.map((tool) => {
+    return <ProjectCard {...tool} key={tool.name} />;
+  });
+};
+
+export const renderCodeCard = (codeTechStack) => {
+  return codeTechStack.map((tool) => {
+    return <CodeCard {...tool} key={tool.name} />;
   });
 };
 
@@ -18,11 +31,17 @@ export default function TechStackList() {
       <div className="text-2xl bold mx-5">What have I built?</div>
       {/* // Do I wanna break this out by tool? Use case? Something else? Or just use tags? */}
       <div className="grid grid-cols-1 md:grid-cols-4 m-5 p-5 rounded overflow-hidden shadow-lg">
-        {renderCards(myToolsStack)}
+        {renderProjects(myProjects)}
       </div>
-      <div className="text-2xl bold mx-5">What&apos;s in my Toolbox?</div>
+      <div className="text-2xl bold mx-5">What&apos;s in my Code Toolbox?</div>
+      <div className="grid grid-cols-1 md:grid-cols-6 m-5 p-5 rounded overflow-hidden shadow-lg">
+        {renderCodeCard(codeTechStack)}
+      </div>
+      <div className="text-2xl bold mx-5">
+        What&apos;s in my No/Low Code Toolbox?
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-4 m-5 p-5 rounded overflow-hidden shadow-lg">
-        {renderCards(techStack)}
+        {renderTools(techStack)}
       </div>
     </>
   );

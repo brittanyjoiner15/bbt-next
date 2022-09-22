@@ -1,4 +1,5 @@
 import trello from "../images/trello.png";
+import currencyConverter from "../images/currency-converter.png";
 import raycast from "../images/raycast.jpeg";
 import zapier from "../images/zapier.png";
 import pixiebrix from "../images/pixiebrix-logo.png";
@@ -10,6 +11,16 @@ import mail from "../images/mail.gif";
 import slack from "../images/slack.gif";
 import productHuntFinds from "../images/product-hunt-finds.gif";
 import learnToCode from "../images/learn-to-code.gif";
+import euiEvent from "../images/eui-event.png";
+import techOut from "../images/tech-out.png";
+import trelloTips from "../images/trellotips.png";
+import photoUrl from "../images/photo-url-generator.png";
+import taxBracket from "../images/tax-bracket.png";
+import drinkGenerator from "../images/drink-generator.png";
+import scavenger from "../images/scavenger.png";
+import jsLogo from "../images/js.png";
+import tsLogo from "../images/ts.png";
+import react from "../images/react.png";
 
 export const techStack = [
   {
@@ -46,21 +57,92 @@ export const techStack = [
   },
 ];
 
-export const myToolsStack = [
+export const codeTechStack = [
   {
-    description: "Currency converter ",
-    learnLink: "",
-    logo: pixiebrix,
-    name: "Currency Converter",
-    tags: ["React", "Javascript"],
+    logo: jsLogo,
+    name: "JavaScript",
+  },
+  {
+    logo: tsLogo,
+    name: "TypeScript",
+  },
+  {
+    logo: react,
+    name: "React",
+  },
+];
+
+export const myProjects = [
+  {
+    description:
+      "Created a template for events and conferences, then I open sourced it so others could contribute as well!",
+    learnLink: "https://eui-event.vercel.app/",
+    logo: euiEvent,
+    name: "React + Eui Event Template",
+    tags: ["React", "Javascript", "Eui", "Open Source"],
+    repo: "https://github.com/brittanyjoiner15/eui-event-template",
   },
   {
     description:
-      "See how much you're actually paying in taxes in each tax bracket. ",
-    learnLink: "",
-    logo: pixiebrix,
-    name: "Marginal Tax Bracket Calculator",
+      "I wanted to keep track of all the swag I have from tech companies! Peruse my collection.",
+    learnLink: "https://tech-out-my-swag.netlify.app/",
+    logo: techOut,
+    name: "Tech Out My Swag",
+    tags: ["React", "Javascript", "Polaris"],
+    repo: "https://github.com/brittanyjoiner15/tech-out-my-swag",
+  },
+  {
+    description:
+      "I built this site that generates quick tips about Trello! From best practices to quick hacks and more!",
+    learnLink: "https://www.trello-tips.com/",
+    logo: trelloTips,
+    name: "Trello Tip Generator",
+    tags: ["React", "Javascript", "Tailwind"],
+    repo: "https://github.com/brittanyjoiner15/trello-tips-launch",
+  },
+  {
+    description:
+      "Ever need a link for an image instead of a file? I built this so I could quickly store mine.",
+    learnLink: "https://britt-photo-url-generator.netlify.app/",
+    logo: photoUrl,
+    name: "Photo URL Generator",
+    tags: ["NextJs", "Javascript", "Firebase"],
+    repo: "https://github.com/brittanyjoiner15/photo-url-generator-v2",
+  },
+  {
+    description:
+      "See how much you're actually paying in taxes in each tax bracket.",
+    learnLink: "https://marginal-tax-bracket-breakout.netlify.app/",
+    logo: taxBracket,
+    name: "Tax Bracket Calculator",
+    tags: ["React", "Javascript", "Eui"],
+    repo: "https://github.com/brittanyjoiner15/tax-bracket",
+  },
+  {
+    description: "Select your liquor and get some drink recipes.",
+    learnLink: "https://britt-drinks.netlify.app/",
+    logo: drinkGenerator,
+    name: "Drink Recipe Generator",
     tags: ["React", "Javascript"],
+    repo: "https://github.com/brittanyjoiner15/drink-generator",
+  },
+  {
+    description:
+      "I built a scavenger hunt for my mom's birthday! Don't worry she solved it.",
+    learnLink: "https://clever-lamarr-a4851f.netlify.app/",
+    logo: scavenger,
+    name: "Scavenger Hunt",
+    tags: ["React", "Javascript", "Eui"],
+    repo: "https://github.com/brittanyjoiner15/scavenger",
+  },
+  {
+    description:
+      "You know, your basic currency converter. Currently broken, but enjoy the artifacts!",
+    learnLink: "https://github.com/brittanyjoiner15/react-currency-converter",
+    logo: currencyConverter,
+    name: "Currency Converter",
+    tags: ["React", "Javascript", "Eui"],
+    repo: "https://github.com/brittanyjoiner15/react-currency-converter",
   },
 ];
 
