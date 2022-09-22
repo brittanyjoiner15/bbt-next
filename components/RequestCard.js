@@ -7,8 +7,8 @@ export default function RequestCard(brandRequest) {
       <Image
         src={brandRequest.image}
         alt={brandRequest.requestName}
-        width={250}
-        height={250}
+        width={200}
+        height={200}
       />
 
       <div className="border-r border-b border-s border-gray-100 lg:border-l-0 lg:border-t lg:border-gray-100 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
