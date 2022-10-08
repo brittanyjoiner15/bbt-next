@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Tooltip } from "@nextui-org/react";
 
-import logo from "./../images/logo-square.png";
+import logo from "./../images/brittany-joiner.png";
 import twitter from "./../images/twitter.png";
 import youtube from "./../images/youtube.png";
 import github from "./../images/github.png";
