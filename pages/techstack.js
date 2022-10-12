@@ -27,6 +27,12 @@ export const renderCodeCard = (codeTechStack) => {
 export default function TechStackList() {
   return (
     <>
+      <Head>
+        <title>BBT | Tech Stack</title>
+        <meta name="description" content="Here's what's in my toolbox." />
+        <link rel="icon" href="/logo.png" />
+        <link href="/dist/output.css" rel="stylesheet" />
+      </Head>
       <Header />
       <div className="text-2xl bold mx-5">What have I built?</div>
       {/* // Do I wanna break this out by tool? Use case? Something else? Or just use tags? */}
