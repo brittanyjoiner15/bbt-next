@@ -52,6 +52,18 @@ export default function Home() {
               <h2>Check out my toolbox and builds</h2>
             </a>
           </div>
+
+          <iframe
+            src="https://app.fillout.com/flow/hPyPLpsEuDus"
+            width="75%"
+            height="500px"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            title="newsletter signup"
+          >
+            {" "}
+          </iframe>
         </main>
 
         <footer className={styles.footer}>

@@ -2,7 +2,7 @@ import React from "react";
 import TechCard, { ProjectCard, CodeCard } from "../components/TechStackCard";
 import { techStack, myProjects, codeTechStack } from "../components/Data";
 import Header from "../components/Header";
-import Image from "next/image";
+import Head from "next/head";
 
 export const renderTools = (techStack) => {
   return techStack.map((tool) => {

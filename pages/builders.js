@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import RequestCard from "../components/RequestCard";
 import { builderRequests } from "../components/Data";
 import Header from "../components/Header";
@@ -19,9 +20,7 @@ export default function Brands() {
         <link href="/dist/output.css" rel="stylesheet" />
       </Head>
       <Header />
-      <div className="bold flex font-sans text-2xl ml-5 mt-4">
-        How I help fellow builders
-      </div>
+
       {renderBuilderOptions(builderRequests)}
     </>
   );

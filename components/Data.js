@@ -21,6 +21,7 @@ import scavenger from "../images/scavenger.png";
 import jsLogo from "../images/js.png";
 import tsLogo from "../images/ts.png";
 import react from "../images/react.png";
+import node from "../images/nodejs.png";
 
 export const techStack = [
   {
@@ -69,6 +70,10 @@ export const codeTechStack = [
   {
     logo: react,
     name: "React",
+  },
+  {
+    logo: node,
+    name: "Node",
   },
 ];
 
