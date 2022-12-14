@@ -9,6 +9,7 @@ import youtube from "./../images/youtube.png";
 import github from "./../images/github.png";
 import coffee from "../images/coffee.png";
 import slack from "../images/slack.png";
+import podium from "../images/podium.png";
 
 export default function Header() {
   return (
@@ -114,10 +115,25 @@ export default function Header() {
             />
           </a>
         </Tooltip>
-        {/* Omit this for now */}
-        {/* <a href="/talks" target={"_blank"} className="hover:opacity-60">
-          <Image src="/./podium.png" width={40} height={40} />
-        </Link> */}
+        <Tooltip
+          content={"Hire me to speak!"}
+          contentColor="primary"
+          placement="bottom"
+        >
+          <a
+            href="https://trello.com/b/GQoP1k9B/hire-brittany-to-speak"
+            rel="noopener noreferrer"
+            target={"_blank"}
+          >
+            <Image
+              alt="podium"
+              className="hover:opacity-60"
+              height={40}
+              src={podium}
+              width={40}
+            />
+          </a>
+        </Tooltip>
         <a
           href="https://app.snoopforms.com/f/ESOGk7ZU/"
           rel="noopener noreferrer"
