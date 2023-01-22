@@ -2,6 +2,7 @@ import trello from "../images/trello.png";
 import currencyConverter from "../images/currency-converter.png";
 import raycast from "../images/raycast.jpeg";
 import zapier from "../images/zapier.png";
+import hitlogo from "../images/hit-logo-img.png";
 import pixiebrix from "../images/pixiebrix-logo.png";
 import productReview from "../images/product-feedback.png";
 import sponsoredContent from "../images/sponsored-content.png";
@@ -76,6 +77,16 @@ export const codeTechStack = [
     name: "Node",
   },
 ];
+
+export const myPremiumProjects = [
+  {
+    description: "I offer a free newsletter, but paid members get access to monthly calls, additional content, and a private slack community",
+    learnLink: "https://trello.substack.com/",
+    logo: hitlogo,
+    name: "How I Trello Premium Newsletter",
+    tags: ["Trello"]
+  }
+]
 
 export const myProjects = [
   {

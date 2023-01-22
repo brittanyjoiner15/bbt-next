@@ -19,8 +19,8 @@ const tryItOutButton = (link) => {
   if (link) {
     return (
       <a href={link} rel="noopener noreferrer" target={"_blank"}>
-        <button className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded mt-2 w-full">
-          Try It Out
+        <button className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded mt-5 w-full">
+          Check It Out
         </button>
       </a>
     );
@@ -45,11 +45,12 @@ export function ProjectCard(project) {
       </div>
       <div>
         <div className="px-6 pt-4 pb-2 h-9">{renderTags(project.tags)}</div>
+        {project.repo && (
         <div className="flex flex-1 justify-end">
           <a href={project.repo} rel="noopener noreferrer" target={"_blank"}>
             <Image src={github} alt="twitter logo" width={40} height={40} />
           </a>
-        </div>
+        </div>)}
       </div>
     </div>
   );

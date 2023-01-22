@@ -26,8 +26,8 @@ export default function Home() {
             <div className="grid m-5 p-5 align-middle grid-cols-1 md:grid-cols-2  w-full md:w-1/2">
               I really like to build things. I used to work in marketing, where
               I built brands and campaigns for companies to connect with more
-              users. Now, I work as a software developer building internal apps
-              for my company.
+              users. Then I learned to code and became a software developer, and now I 
+              combine all my skills together and work in Developer Relations!
               <br />
               <br />
               Sometimes I use code to build, but sometimes, I actually prefer to
@@ -41,19 +41,16 @@ export default function Home() {
           </div>
 
           <div className={styles.grid}>
-            <a href="./brands" className={styles.card}>
-              <h2>I work with brands</h2>
+            
+            <a href="./tools" className={styles.card}>
+              <h2>Check out my toolbox</h2>
             </a>
-
-            <a href="./builders" className={styles.card}>
-              <h2>... and builders</h2>
-            </a>
-            <a href="./techstack" className={styles.card}>
-              <h2>Check out my toolbox and builds</h2>
+            <a href="./products" className={styles.card}>
+              <h2>View my products</h2>
             </a>
           </div>
 
-          <iframe
+          {/* <iframe
             src="https://app.fillout.com/flow/hPyPLpsEuDus"
             width="75%"
             height="500px"
@@ -63,7 +60,7 @@ export default function Home() {
             title="newsletter signup"
           >
             {" "}
-          </iframe>
+          </iframe> */}
         </main>
 
         <footer className={styles.footer}>
