@@ -28,7 +28,7 @@ export default function TechStackList() {
   return (
     <>
       <Head>
-        <title>BBT | Tools</title>
+        <title>BBT | Test</title>
         <meta name="description" content="Here's what's in my toolbox." />
         <link rel="icon" href="/logo.png" />
         <link href="/dist/output.css" rel="stylesheet" />
