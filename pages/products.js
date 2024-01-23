@@ -38,7 +38,7 @@ export default function TechStackList() {
       <div className="grid grid-cols-1 md:grid-cols-4 m-5 p-5 rounded overflow-hidden shadow-lg">
         {renderProjects(myPremiumProjects)}
       </div>
-      <div className="text-2xl bold mx-5">What I've Built</div>
+      <div className="text-2xl bold mx-5">My Projects</div>
       {/* // Do I wanna break this out by tool? Use case? Something else? Or just use tags? */}
       <div className="grid grid-cols-1 md:grid-cols-4 m-5 p-5 rounded overflow-hidden shadow-lg">
         {renderProjects(myProjects)}
