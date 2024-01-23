@@ -168,7 +168,7 @@ export const brandRequests = [
     requestCta: "Submit your product",
     requestDescription:
       "Got a product that you want me to review? Share your product and I'll give it a try!",
-    requestLink: "mailto:britt@brittbuildsthings.com",
+    requestLink: "https://app.bluecatforms.com/TyXkzND0/new-form",
     requestName: "Product feedback",
   },
   {
@@ -176,7 +176,7 @@ export const brandRequests = [
     requestCta: "Learn about content opportunities",
     requestDescription:
       "If you want to tell my audience about your product, or you want to me to make content for your users,  I'll build custom video and/or written content.",
-    requestLink: "https://forms.fillout.com/t/5ZBpSppikcus",
+    requestLink: "https://app.bluecatforms.com/8wPHstBC/new-form",
     requestName: "Sponsored content",
   },
   {
@@ -202,9 +202,9 @@ export const builderRequests = [
     image: mail,
     requestCta: "Subscribe",
     requestDescription:
-      "Each week I write about how to do cool things in Trello. Wanna get on the list?",
-    requestLink: "https://trello.substack.com/",
-    requestName: "Get my weekly Trello newsletter",
+      "Each week I write about how I'm improving my workflow. Wanna get on the list?",
+    requestLink: "https://app.snoopforms.com/f/ESOGk7ZU/",
+    requestName: "Get the weekly newsletter",
   },
   {
     image: slack,
