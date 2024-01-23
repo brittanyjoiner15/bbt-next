@@ -46,7 +46,7 @@ export default function Home() {
               <h2>Check out my toolbox</h2>
             </a>
             <a href="./products" className={styles.card}>
-              <h2>View my products</h2>
+              <h2>View my projects</h2>
             </a>
           </div>
 

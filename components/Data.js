@@ -22,7 +22,7 @@ import scavenger from "../images/scavenger.png";
 import jsLogo from "../images/js.png";
 import tsLogo from "../images/ts.png";
 import react from "../images/react.png";
-import node from "../images/nodejs.png";
+import node from "../images/node-js.svg";
 
 export const techStack = [
   {

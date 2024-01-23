@@ -44,18 +44,6 @@ export default function TechStackList() {
       <div className="grid grid-cols-1 md:grid-cols-4 m-5 p-5 rounded overflow-hidden shadow-lg">
         {renderTools(techStack)}
       </div>
-      <iframe
-            src="https://app.fillout.com/t/4u62vphZNJus"
-            width="100%"
-            height="500px"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-            title="tool submit"
-          >
-            {" "}
-          </iframe>
-      
     </>
   );
 }
