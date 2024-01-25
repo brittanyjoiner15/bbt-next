@@ -26,12 +26,12 @@ export default function Home() {
           I spent most of 2023 distilling as much of my Trello knowledge as possible into one book!
           <br/>
           <br/>
-          This book is an expert's guide to unleash your productivity potential for 
+          This book is your expert guide to unleash your productivity potential for 
           work and personal projects with Trello automation, advanced features, integrations, 
           Power-Ups, and more!
           <br/>
           <br/>
-          In this book you'll learn: 
+          In this book you will learn: 
           <br/>
           <br/>
           ✅ How to use the core components of Trello
@@ -43,7 +43,7 @@ export default function Home() {
           ✅ Which Power-Ups will set you up for success
           </div>
           <div className="flex justify-center">
-          <a href="https://packt.link/IQZmd" target="_blank"><Image src={book} width={354} height={422} /></a>
+          <a href="https://packt.link/IQZmd" target="_blank" rel="noreferrer"><Image src={book} width={354} height={422} /></a>
           </div>
           
           <div className={styles.grid}>
