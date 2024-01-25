@@ -135,7 +135,7 @@ export default function Header() {
           </a>
         </Tooltip>
         <a
-          href="https://app.snoopforms.com/f/ESOGk7ZU/"
+          href="https://trello.substack.com/"
           rel="noopener noreferrer"
           target={"_blank"}
         >

@@ -43,10 +43,13 @@ export default function Home() {
           <div className={styles.grid}>
             
             <a href="./tools" className={styles.card}>
-              <h2>Check out my toolbox</h2>
+              <h2>🧰 Check out my toolbox</h2>
             </a>
             <a href="./products" className={styles.card}>
-              <h2>View my projects</h2>
+              <h2>💻 View my projects</h2>
+            </a>
+            <a href="./book" className={styles.card}>
+              <h2>📚 Get my book</h2>
             </a>
           </div>
 
