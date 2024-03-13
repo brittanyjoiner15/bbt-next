@@ -10,7 +10,7 @@ import Header from "../components/Header";
 export default function Event() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className={styles.container}>
         <Head>
           <title>Trello Team 24!</title>
