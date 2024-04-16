@@ -5,7 +5,10 @@ import book from "../images/trello-book.jpg";
 import newsletter from "../images/hit-logo-img.png";
 import youtube from "../images/youtube-channel.png";
 import EventImg from "../images/team-hero.png"; 
-import Header from "../components/Header";
+// import Header from "../components/Header";
+import unito1 from "../images/unito1.png";
+import unito2 from "../images/unito2.svg";
+import crmble from "../images/crmble.png";
 
 export default function Event() {
   return (
@@ -123,6 +126,69 @@ export default function Event() {
                 >
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                 🙋 I need Trello help!
+                </button>
+              </a>
+              </div>  
+            </div>
+
+            <div className={styles.card}>
+              <h2>Need integrations for your Atlassian suite?</h2>
+              <p>The Unito team will also be at Team24! Learn how we can help you launch your own live bidirectional integrations in less that 12 minutes.</p>
+              
+              <div className="flex justify-center py-4">
+                <Image src={unito1} width={450} height={350} alt="Unito Integrations"/>
+              </div>
+              
+              <div className="py-4">
+              <a
+                href="https://share.hsforms.com/1sR8zeOrJTYuhN22VECVVVg1lrbc"
+                rel="noopener noreferrer"
+                target={"_blank"}
+                >
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Lets Connect
+                </button>
+              </a>
+              </div>  
+            </div>    
+
+            <div className={styles.card}>
+              <h2>Curious about Unito?</h2>
+              <p>Unito is a platform where users sync data with 2-way enterprise-grade integrations that anyone can set up in minutes.</p>
+              
+              <div className="flex justify-center py-4">
+                <Image src={unito2} width={450} height={350} alt="Unito"/>
+              </div>
+              
+              <div className="py-4">
+              <a
+                href="https://unito.io/?utm_source=newsletter&utm_medium=landingpage&utm_campaign=brittanyjoiner"
+                rel="noopener noreferrer"
+                target={"_blank"}
+                >
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Learn More
+                </button>
+              </a>
+              </div>  
+            </div>
+
+            <div className={styles.card}>
+              <h2>Ready to Crmble?</h2>
+              <p>If you are organizing contacts in Trello, Crmble will make your life easier. </p>
+              
+              <div className="flex justify-center py-4">
+                <Image src={crmble} width={450} height={350} alt="Crmble"/>
+              </div>
+              
+              <div className="py-4">
+              <a
+                href="https://crmble.com/team24/"
+                rel="noopener noreferrer"
+                target={"_blank"}
+                >
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Learn more
                 </button>
               </a>
               </div>  
