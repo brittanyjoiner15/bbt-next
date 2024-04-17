@@ -136,7 +136,7 @@ export default function Event() {
               <p>The Unito team will also be at Team24! Learn how we can help you launch your own live bidirectional integrations in less that 12 minutes.</p>
               
               <div className="flex justify-center py-4">
-                <Image src={unito1} width={450} height={350} alt="Unito Integrations"/>
+                <Image src={unito1} width={450} height={450} alt="Unito Integrations"/>
               </div>
               
               <div className="py-4">
@@ -157,7 +157,7 @@ export default function Event() {
               <p>Unito is a platform where users sync data with 2-way enterprise-grade integrations that anyone can set up in minutes.</p>
               
               <div className="flex justify-center py-4">
-                <Image src={unito2} width={450} height={350} alt="Unito"/>
+                <Image src={unito2} width={450} height={200} alt="Unito"/>
               </div>
               
               <div className="py-4">
@@ -174,16 +174,16 @@ export default function Event() {
             </div>
 
             <div className={styles.card}>
-              <h2>Ready to Crmble?</h2>
-              <p>If you are organizing contacts in Trello, Crmble will make your life easier. </p>
+              <h2>Using Trello as your CRM?</h2>
+              <p>Learn how to with Crmble at the Atlassian Team24 event.</p>
               
               <div className="flex justify-center py-4">
-                <Image src={crmble} width={450} height={350} alt="Crmble"/>
+                <Image src={crmble} width={720} height={560} alt="Crmble"/>
               </div>
               
               <div className="py-4">
               <a
-                href="https://crmble.com/team24/"
+                href="http://crmble.com/team24?utm_source=brittbuildsthings&utm_medium=banner&utm_campaign=team24"
                 rel="noopener noreferrer"
                 target={"_blank"}
                 >
