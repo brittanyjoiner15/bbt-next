@@ -8,7 +8,8 @@ import EventImg from "../images/team-hero.png";
 // import Header from "../components/Header";
 import unito1 from "../images/unito1.png";
 import unito2 from "../images/unito2.svg";
-import crmble from "../images/crmble.png";
+import crmble from "../images/crmble2.png";
+import sendboard from "../images/sendboard.png";
 
 export default function Event() {
   return (
@@ -178,7 +179,7 @@ export default function Event() {
               <p>Learn how to with Crmble at the Atlassian Team24 event.</p>
               
               <div className="flex justify-center py-4">
-                <Image src={crmble} width={720} height={560} alt="Crmble"/>
+                <Image src={crmble} width={500} height={500} alt="Crmble"/>
               </div>
               
               <div className="py-4">
@@ -192,7 +193,28 @@ export default function Event() {
                 </button>
               </a>
               </div>  
-            </div>    
+            </div>   
+
+             <div className={styles.card}>
+              <h2>Turn Trello into a helpdesk</h2>
+              <p>Transform any business inbox into a shared inbox in Trello using Email for Trello. Automation • Email Templates • Contact Management</p>
+              
+              <div className="flex justify-center py-4">
+                <Image src={sendboard} width={500} height={337} alt="Sendboard"/>
+              </div>
+              
+              <div className="py-4">
+              <a
+                href="https://www.sendboard.com/team-2024"
+                rel="noopener noreferrer"
+                target={"_blank"}
+                >
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                🔥 Learn more
+                </button>
+              </a>
+              </div>  
+            </div>   
 
             
           </div>
