@@ -66,12 +66,12 @@ export default function Event() {
                 <Image src={book} width={354} height={422} alt="Trello Book"/>
               </div>
               <a
-                href="https://packt.link/IQZmd"
+                href="https://www.amazon.com/promocode/A3NDI01KJ5F5F0"
                 rel="noopener noreferrer"
                 target={"_blank"}
                 >
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                📚 Get the book
+                📚 Get 20% off with code 20TRELLO
                 </button>
               </a>
             </div>
