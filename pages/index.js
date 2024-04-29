@@ -3,8 +3,10 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import brittany from "../images/brittanyjpg.jpg";
 import Header from "../components/Header";
+import mixpanel from 'mixpanel-browser';
 
 export default function Home() {
+  mixpanel.init('95940c98a40d877bdca95440b74db577', {debug: true, track_pageview: true, persistence: 'localStorage'});
   return (
     <>
       <Header />
